@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('https://preview.redd.it/a-new-cat-sub-for-my-new-cat-v0-w0d0ckmgmz2e1.jpg?width=640&crop=smart&auto=webp&s=6b3ea5f2b4b51d3c060e8aa031a8321e15e940b0');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.avatar::before,
+.avatar::after {
+    --scale: 0;
+
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(var(--scale));
+    transition: 150ms transform;
+}
+
+.avatar::before {
+    content: attr(data-tooltip);
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+}
+
+.avatar:hover::before {
+    --scale: 1;
+}
