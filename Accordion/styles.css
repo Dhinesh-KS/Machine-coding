@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.accordion-btn {
+    background-color: #eee;
+    color: #444;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    position: relative;
+}
+
+.accordion-btn:hover {
+    cursor: pointer;
+}
+
+.accordion-btn::after {
+    content: '\002B';
+    color: black;
+    position: absolute;
+    right: 18px;
+}
+
+.accordion-btn.active::after {
+    content: '\002D';
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.hidden {
+    display: none;
+}
