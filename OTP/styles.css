@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+.otp-input {
+    width: 40px;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px #525252;
+    margin: 0 10px;
+    padding-bottom: 4px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.otp-input:focus {
+    border-bottom: solid 2px #fa8242;
+}
