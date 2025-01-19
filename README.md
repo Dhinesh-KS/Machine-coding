@@ -9,3 +9,4 @@ Counter - https://www.youtube.com/watch?v=KIdW8X4wnQw&list=PLBygUld3s6x8sI_H8UYR
 Tic Tac Toe - https://chatgpt.com/c/678b37f7-c970-800a-8094-7f3a5304d68e
 OTP Input - https://www.youtube.com/watch?v=ebXQA1DJhj8&list=PLBygUld3s6x8sI_H8UYROVMIVcuxUre1e&index=10
 Bishop on chess board - https://chatgpt.com/c/678b835c-60b4-800a-a948-26229c910984
+Nested comments - https://www.youtube.com/watch?v=a4OA7QbHEho&list=PLBygUld3s6x8sI_H8UYROVMIVcuxUre1e&index=7
